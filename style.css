@@ -1,0 +1,106 @@
+*{
+  box-sizing:borde-box;
+}
+html {
+  -webkit-font-smoothing : antialiased;
+  text-rendering : optimizeLegibility;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+body {
+  background-color:lightgray;
+  background-image : url('https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Vector_Book_blue.svg/1280px-Vector_Book_blue.svg.png' );
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+hr {
+  width : 37px;
+  height : 10px;
+  color : rgb(5, 5, 5);
+}
+
+/* header section */
+
+.container{
+  text-align : center;
+  margin : 0 auto;
+  padding-bottom: 1em;
+}
+
+.bookImage{
+width: 4.25em;
+height: 4.25em;
+}
+
+.intro {
+  margin-top: 2.18em;
+}
+
+.intro h1 {
+  margin-top: 0.12em;
+}
+
+/* reset list */
+
+.resetContainer {
+
+  font-family: 'Raleway', sans-serif;
+
+}
+
+/* The input */
+
+.list-area-insertion input[type='text']{
+  width: 16em;
+  height: 2em;
+  margin: 0;
+  padding: 0;
+  
+}
+
+.bookListItem{
+  
+}
+
+button[type='submit']{
+  background-color:#557A95;
+  width:6em;
+  height:2.3em;
+  border-left-width: 20;
+  margin:0;
+  border-style:none;
+  border: 2px solid aquamarine;
+  border-radius: 25px;
+}
+
+ul,li {
+  list-style: none;
+  padding-left:0;
+  padding-top:5px;
+  text-align: left;
+  color: aquamarine;
+}
+
+li {
+  border:1px solid aquamarine;
+  background-color: gray;
+  height: 1.5em;
+  margin: 0 auto;
+  margin-top:10px;
+  width:14em;
+}
+
+.shoppingListItem{
+
+  border: 0.5px solid black;
+  outline-style: solid;
+  outline-color:blue;
+  outline-width: thin;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 2px 5px black;
+  
+}
+

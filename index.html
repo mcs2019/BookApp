@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class = 'container'>
+      <div class = 'intro'>
+        <!-- <img class = 'bookImage' src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Vector_Book_blue.svg/1280px-Vector_Book_blue.svg.png' alt ='pictureOfaBook'> -->
+        <h1> <strong> Library App <strong></h1>
+        <h2>By: Marcos Sant'Anna</h2>
+        <p> <strong> Let's keep track of our books!<br>
+        Enter the book name  in the txt box bellow, then press add!</strong></p>
+      </div>
+      <div class = 'container'>
+        <form class = 'clearContainer'>
+          <button class = 'resetList' type = 'submit'> RESET </button>
+          <button class = 'checked' type = 'submit'> CHECK </button>
+        </form>
+      </div>
+      <div>
+        <form>
+          <input type ='txt' class = 'bookListItem' name='bookListItem' placeholder = 'Enter book name here and click'>
+          <button type ='submit' id = 'add' value = 'add'>ADD</button>
+        </form> 
+      </div>
+      <div class ='list'>
+
+      </div>
+    </header>
+    <script src="script.js"></script>
+  </body>
+</html>
